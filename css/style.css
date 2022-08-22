@@ -1,0 +1,125 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+header {
+    background-color: #9fc5f8;
+}
+
+nav {
+    width: 1000px;
+    display: flex;
+    margin: 0 auto; /* top y bottom en 0 y auto dice centrame */
+    justify-content: space-between; /*para dar espacio entre h1 y lista; quedo el primero al izq y el otro a la der*/
+    align-items: center; /*alinea los item al centro de la posicion vertical*/
+    height: 80px;
+    color: white;
+}
+
+nav ul {
+    width: 40%;
+    display: flex;
+    list-style: none; /*quita viñetas en el listado*/
+    justify-content: space-evenly; /*para separar los item de la lista*/
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/*nav ul li a:visited { sirve para indicar al usuario que ya visitó un link
+    color: blue;
+}*/
+
+main {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.sanjose {
+    display: flex; /*para que elementos adentro se distribuyan adentro de la caja*/
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid black;
+}
+
+.row {
+    display: flex; /*para que funcione el flex*/
+    margin-top: 15px;
+}
+
+.dia {
+    flex: 1;
+    background-color: lightgrey;
+    margin-right:20px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.ultimo {
+    margin-right: 0;
+}
+
+.dia img {
+    width: 100px;
+    border-radius: 50%; /*con 50% hacemos que algo sea completamente redondo*/
+}
+
+.dia h2 {
+    margin-bottom: 15px;
+}
+
+.dia img {
+    margin-bottom: 15px;
+}
+
+.dia p {
+    margin-bottom: 15px;
+}
+
+.temperaturas {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tempMax {
+    color: red
+}
+
+.tempMin {
+    color: blue;
+}
+
+footer {
+    width: 100%;
+    position:fixed;
+    bottom:0;
+}
+
+.cookie {
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    background-color: lightgray;
+    border: 2px solid black;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer img {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+footer .text {
+    margin-right: 15px;
+}
+
+button {
+    margin-right: 15px;
+}
